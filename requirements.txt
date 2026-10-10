@@ -1,0 +1,9 @@
+# CPU uchun (GPU bo'lsa torch'ni o'z CUDA versiyangiz bilan o'rnating)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.4
+torchvision>=0.19
+ultralytics>=8.3
+opencv-python>=4.10
+PyYAML>=6.0
+# Faqat tayyorlash.py uchun (sinflarni CLIP bilan bir marta kodlash)
+clip @ git+https://github.com/ultralytics/CLIP.git
